@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Service Survey</h1>
+        <!-- Form Details -->
+        <!-- <div class="form-details">
+        <h3>Name</h3>
+        <input type="text" placeholder="Name" required>
+        <h3>Email</h3>
+        <input type="email" placeholder="email" required>
+        <h3>Tell Us How we Improve</h3>
+        <input type="Message" placeholder="Type Here" required>
+        <button onclick="submitForm()">Submit</button>
+        </div> -->
+        <form>
+            <h3>Name</h3>
+            <input type="name" class="name" placeholder="Name" required>
+            <h3>Email</h3>
+            <input type="email" class="email" placeholder="Email" required>
+            <h3>Tell Us How We Improve</h3>
+            <input type="message" class="message" placeholder="Type Here" required>
+            <button id="submit-button" onclick="submitForm()">submit</button>
+            &nbsp;
+            <button onclick="print_current_page()">Print</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
